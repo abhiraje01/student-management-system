@@ -60,9 +60,7 @@ student-management-system
 
 ## 1. Clone Repository
 
-git clone https://github.com/yourusername/student-management-system.git
-
----
+git clone 
 
 ## 2. Open Backend in STS
 
@@ -72,23 +70,7 @@ Open backend folder as Spring Boot project.
 
 ## 3. Configure PostgreSQL
 
-Create Database:
 
-CREATE DATABASE studentdb;
-
-Update application.properties:
-
-spring.datasource.url=jdbc:postgresql://localhost:5432/studentdb
-
-spring.datasource.username=postgres
-
-spring.datasource.password=yourpassword
-
-spring.jpa.hibernate.ddl-auto=update
-
-spring.jpa.show-sql=true
-
----
 
 ## 4. Run Spring Boot Application
 
@@ -124,9 +106,7 @@ Right click index.html
 Click:
 Open with Live Server
 
-Frontend runs on:
-
-http://127.0.0.1:5500
+Frontend run:
 
 ---
 
